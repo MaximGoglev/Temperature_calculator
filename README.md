@@ -1,2 +1,22 @@
-# Temperature_calculator
-Calculator to calculate temperature
+# Temperature Converter
+Простой консольный конвертер температур между тремя шкалами:
+
+- Цельсий (°C)
+- Фаренгейт (°F)
+- Кельвин (K)
+
+Перед запуском программы отображается небольшая ASCII-анимация логотипа, после чего пользователь нажимает **Enter** и переходит к обычному меню выбора.
+
+## запуск
+
+Запуск программы:
+```bash
+python3 Temperature_Calculator.py
+```
+## тесты
+В проекте есть unit-тесты на модуль конвертации.
+
+Запуск тестов:
+```bash
+python3 -m unittest test_temperature.py
+```
